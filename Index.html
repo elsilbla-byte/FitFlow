@@ -27,7 +27,9 @@
         color: #172033;
     }
 
-    /* NAVBAR */
+    /* =========================
+       NAVBAR
+    ========================= */
 
     nav {
         width: 100%;
@@ -73,7 +75,9 @@
         color: #111827;
     }
 
-    /* HERO */
+    /* =========================
+       HERO
+    ========================= */
 
     .hero {
         min-height: 650px;
@@ -158,7 +162,9 @@
         border-color: #9ca3af;
     }
 
-    /* PHONE */
+    /* =========================
+       PHONE MOCKUP
+    ========================= */
 
     .phone-container {
         display: flex;
@@ -240,7 +246,7 @@
         border-radius: 18px;
         padding: 16px;
         margin-bottom: 12px;
-        box-shadow: 0 5px 20px rgba(0,0,0,0.05);
+        box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
     }
 
     .workout-card strong {
@@ -252,7 +258,9 @@
         color: #6b7280;
     }
 
-    /* FEATURES */
+    /* =========================
+       FEATURES
+    ========================= */
 
     .features {
         padding: 90px 7%;
@@ -294,7 +302,7 @@
 
     .feature:hover {
         transform: translateY(-5px);
-        box-shadow: 0 15px 40px rgba(0,0,0,0.07);
+        box-shadow: 0 15px 40px rgba(0, 0, 0, 0.07);
     }
 
     .feature-icon {
@@ -319,7 +327,9 @@
         line-height: 1.6;
     }
 
-    /* DOWNLOAD */
+    /* =========================
+       DOWNLOAD
+    ========================= */
 
     .download {
         padding: 100px 7%;
@@ -346,7 +356,14 @@
         color: #111827;
     }
 
-    /* FOOTER */
+    .download .button:hover {
+        transform: translateY(-2px);
+        background: #f3f4f6;
+    }
+
+    /* =========================
+       FOOTER
+    ========================= */
 
     footer {
         padding: 30px 7%;
@@ -359,7 +376,9 @@
         color: white;
     }
 
-    /* RESPONSIVE */
+    /* =========================
+       RESPONSIVE
+    ========================= */
 
     @media (max-width: 850px) {
 
@@ -417,22 +436,40 @@
 <body>
 
 ```
-<!-- NAVBAR -->
+<!-- =========================
+     NAVBAR
+========================= -->
 
 <nav>
+
     <div class="logo">
-        <div class="logo-icon">🏃</div>
+
+        <div class="logo-icon">
+            🏃
+        </div>
+
         FitFlow
+
     </div>
 
     <div class="links">
-        <a href="#caracteristicas">Características</a>
-        <a href="#descargar">Descargar</a>
+
+        <a href="#caracteristicas">
+            Características
+        </a>
+
+        <a href="#descargar">
+            Descargar
+        </a>
+
     </div>
+
 </nav>
 
 
-<!-- HERO -->
+<!-- =========================
+     HERO
+========================= -->
 
 <section class="hero">
 
@@ -455,15 +492,17 @@
 
         <div class="buttons">
 
-            <!-- CAMBIAREMOS ESTE ENLACE POR EL DE TU APK -->
-
-            <a class="button button-primary"
-               href="#descargar">
+            <a
+                class="button button-primary"
+                href="#descargar"
+            >
                 📱 Descargar FitFlow
             </a>
 
-            <a class="button button-secondary"
-               href="#caracteristicas">
+            <a
+                class="button button-secondary"
+                href="#caracteristicas"
+            >
                 ✨ Ver características
             </a>
 
@@ -472,7 +511,9 @@
     </div>
 
 
-    <!-- SIMULACIÓN DEL TELÉFONO -->
+    <!-- =========================
+         TELÉFONO
+    ========================= -->
 
     <div class="phone-container">
 
@@ -495,31 +536,56 @@
 
                 <div class="progress-card">
 
-                    <small>Progreso semanal</small>
+                    <small>
+                        Progreso semanal
+                    </small>
 
                     <div class="progress-number">
                         72%
                     </div>
 
                     <div class="progress-bar">
+
                         <div class="progress-fill"></div>
+
                     </div>
 
                 </div>
 
                 <div class="workout-card">
-                    <strong>🏋️ Entrenamiento</strong>
-                    <small>Fuerza · 35 min</small>
+
+                    <strong>
+                        🏋️ Entrenamiento
+                    </strong>
+
+                    <small>
+                        Fuerza · 35 min
+                    </small>
+
                 </div>
 
                 <div class="workout-card">
-                    <strong>🏃 Cardio</strong>
-                    <small>Resistencia · 25 min</small>
+
+                    <strong>
+                        🏃 Cardio
+                    </strong>
+
+                    <small>
+                        Resistencia · 25 min
+                    </small>
+
                 </div>
 
                 <div class="workout-card">
-                    <strong>🎯 Objetivo</strong>
-                    <small>Completar 5 entrenamientos</small>
+
+                    <strong>
+                        🎯 Objetivo
+                    </strong>
+
+                    <small>
+                        Completar 5 entrenamientos
+                    </small>
+
                 </div>
 
             </div>
@@ -531,13 +597,20 @@
 </section>
 
 
-<!-- FEATURES -->
+<!-- =========================
+     CARACTERÍSTICAS
+========================= -->
 
-<section class="features" id="caracteristicas">
+<section
+    class="features"
+    id="caracteristicas"
+>
 
     <div class="section-title">
 
-        <h2>Todo lo que necesitas</h2>
+        <h2>
+            Todo lo que necesitas
+        </h2>
 
         <p>
             FitFlow está pensado para que puedas organizar
@@ -549,6 +622,7 @@
 
 
     <div class="feature-grid">
+
 
         <div class="feature">
 
@@ -657,14 +731,20 @@
 
         </div>
 
+
     </div>
 
 </section>
 
 
-<!-- DOWNLOAD -->
+<!-- =========================
+     DESCARGA
+========================= -->
 
-<section class="download" id="descargar">
+<section
+    class="download"
+    id="descargar"
+>
 
     <h2>
         Empieza con FitFlow
@@ -675,24 +755,21 @@
         tus entrenamientos y seguir tu progreso.
     </p>
 
-    <!--
-        IMPORTANTE:
-        AQUÍ PONDREMOS EL ENLACE REAL
-        DE TU APK EN GITHUB.
-    -->
-
-    <a class="button"
-       href="https://github.com/TU-USUARIO/TU-REPOSITORIO/releases/latest"
-       target="_blank">
-
+    <a
+        class="button"
+        href="https://github.com/seloy/FitFlow/releases/latest"
+        target="_blank"
+        rel="noopener noreferrer"
+    >
         📥 Descargar APK
-
     </a>
 
 </section>
 
 
-<!-- FOOTER -->
+<!-- =========================
+     FOOTER
+========================= -->
 
 <footer>
 
